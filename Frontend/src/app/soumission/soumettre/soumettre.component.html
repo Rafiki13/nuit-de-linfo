@@ -1,1 +1,12 @@
-<p>soumettre works!</p>
+<div id="container">
+  <label for="typeOfEntry">Que voulez-vous entrer comme information ?</label>
+  <select name="typeOfEntry" id="typeOfEntry" [(ngModel)]="type" ()="newTypeOfEntry()">
+    <option value="bateau">Ajouter un bateau</option>
+    <option value="mission">Ajouter une mission</option>
+    <option value="sauveur">Ajouter un sauveur</option>
+  </select>
+
+  <form>
+
+  </form>
+</div>

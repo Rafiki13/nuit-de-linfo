@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-soumettre',
@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SoumettreComponent implements OnInit {
 
+  @Input() type: string = "";
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  newTypeOfEntry(){
+    console.log(this.type);
   }
 
 }
