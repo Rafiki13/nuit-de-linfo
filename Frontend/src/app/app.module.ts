@@ -15,6 +15,7 @@ import { MenuComponent } from './root/menu/menu.component';
 import { FooterComponent } from './root/footer/footer.component';
 import { Routes } from '@angular/router';
 import { RouterModule } from '@angular/router';
+import {FormsModule} from "@angular/forms";
 
 const appRoutes: Routes = [
   {path: "", component: AccueilComponent},
@@ -43,7 +44,8 @@ const appRoutes: Routes = [
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule.forRoot(appRoutes)
+    RouterModule.forRoot(appRoutes),
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
