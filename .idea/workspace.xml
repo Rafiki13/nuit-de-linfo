@@ -3,11 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="816d8d47-42ca-4d1d-99a8-97e07d9c7270" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/src/app/app.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Frontend/src/app/recherche/barre-de-recherche/barre-de-recherche.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/src/app/recherche/barre-de-recherche/barre-de-recherche.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/src/app/recherche/barre-de-recherche/barre-de-recherche.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/src/app/recherche/barre-de-recherche/barre-de-recherche.component.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Frontend/src/app/recherche/barre-de-recherche/barre-de-recherche.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/src/app/recherche/barre-de-recherche/barre-de-recherche.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/src/app/recherche/page-recherche/page-recherche.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/src/app/recherche/page-recherche/page-recherche.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/src/app/root/menu/menu.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/src/app/root/menu/menu.component.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +52,7 @@
       <option name="presentableId" value="Default" />
       <updated>1638218268104</updated>
       <workItem from="1638218270816" duration="4000" />
-      <workItem from="1638463175437" duration="10778000" />
+      <workItem from="1638463175437" duration="15357000" />
     </task>
     <servers />
   </component>
