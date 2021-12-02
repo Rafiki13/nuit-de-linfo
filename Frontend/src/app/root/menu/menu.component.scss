@@ -1,0 +1,29 @@
+nav{
+  display:flex;
+  justify-content:center;
+  width:100%;
+  height:45px;
+  top:0;
+  position:fixed;
+  background-color: white;
+  padding-bottom:100px;
+
+  a{
+    display:flex;
+    align-items:center;
+    height:45px;
+    color: #006fff;
+    text-decoration: none;
+    margin:0 20px;
+
+    &:hover{
+      color: #348cfd;
+    }
+
+    &:last-child{
+      position:absolute;
+      right: 0;
+      top:0;
+    }
+  }
+}
