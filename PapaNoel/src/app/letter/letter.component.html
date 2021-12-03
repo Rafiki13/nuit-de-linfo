@@ -1,11 +1,12 @@
 <div id="container" (click)="onClick()">
   <img src="assets/imgs/deseledLette.png" id="deseledLette" *ngIf="!isOpened">
   <img src="assets/imgs/Santa_Tampon.png" id="tampon" *ngIf="!isOpened">
-  <img src="assets/imgs/openedLetter.png" id="opennedLetter" *ngIf="isOpened">
+  <img src="assets/imgs/openedLetter.png" id="openedLetter" *ngIf="isOpened">
   <div id="text" *ngIf="isOpened">
     <p>
-      
+
     </p>
   </div>
-  <img src="assets/imgs/openedLetter%20copy.png" id="oppenedLetterUpside" *ngIf="isOpened">
+  <!--<img src="assets/imgs/openedLetter%20copy.png" id="oppenedLetterUpside" *ngIf="isOpened">-->
+  <img src="assets/imgs/Santa_Ouverte.png" id="openedLetterUpside" *ngIf="isOpened">
 </div>
