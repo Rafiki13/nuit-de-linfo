@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia&display=swap');
+
+@keyframes tampon {
+  0%{
+    opacity:1;
+    top:calc(calc(50% - 4%) + 4.5% );
+  }
+
+  100%{
+    opacity:1;
+    top:200%;
+  }
+}
+
+#container{
+  position:relative;
+  width:50vw;
+  height:43.75vw;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+  img{
+    position:absolute;
+    width:100%;
+  }
+
+  #tampon{
+    width:15%;
+    top:calc(calc(50% - 4%) + 4.5% );
+    left:calc(calc(50% - 4%) - 2% );
+  }
+}
+
+.disapear{
+    opacity:0;
+    animation-name: tampon;
+    animation-duration:3000ms;
+    animation-delay: 500ms;
+}
+
+#text{
+  background-image:url("../../assets/imgs/carte.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:calc(66.5% - 14%);
+  height:calc(75% - 14%);
+  position:absolute;
+  bottom:40%;
+  left:calc(50% - 38%);
+  top:calc(-33%);
+  transform:rotatez(-6deg);
+  padding:7%;
+  overflow-y:scroll;
+
+  p{
+    color: #dca600;
+    margin:0;
+    font-family: 'Corinthia', cursive;
+    font-size:xx-large;
+  }
+}
