@@ -49,8 +49,8 @@
   height:calc(75% - 14%);
   position:absolute;
   bottom:40%;
-  left:calc(50% - 34%);
-  top:calc(-33%);
+  left:calc(50% - 32.5%);
+  top:calc(-29%);
   transform:rotatez(-6deg);
   padding:7%;
   overflow-y:scroll;
@@ -61,4 +61,8 @@
     font-family: 'Corinthia', cursive;
     font-size:xx-large;
   }
+}
+
+#openedLetterUpside{
+  width:88.8% !important;
 }
