@@ -13,14 +13,16 @@
 }
 
 #container{
+  top:15vh;
   position:relative;
-  width:50vw;
+  width:55vw;
   height:43.75vw;
   display:flex;
   justify-content:center;
   align-items:center;
 
   img{
+    cursor:pointer;
     position:absolute;
     width:100%;
   }
@@ -43,11 +45,11 @@
   background-image:url("../../assets/imgs/carte.png");
   background-repeat: no-repeat;
   background-size: cover;
-  width:calc(66.5% - 14%);
+  width:calc(66.5% - 21%);
   height:calc(75% - 14%);
   position:absolute;
   bottom:40%;
-  left:calc(50% - 38%);
+  left:calc(50% - 34%);
   top:calc(-33%);
   transform:rotatez(-6deg);
   padding:7%;
