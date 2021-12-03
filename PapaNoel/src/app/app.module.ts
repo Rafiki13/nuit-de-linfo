@@ -5,12 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LetterComponent } from './letter/letter.component';
 import { CreateLetterComponent } from './create-letter/create-letter.component';
-import {RouterModule, Routes} from "@angular/router";
 
-const appRoutes: Routes = [
-  { path: '', component: LetterComponent },
-  { path: 'create', component: CreateLetterComponent },
-];
+
 
 @NgModule({
   declarations: [
@@ -20,8 +16,7 @@ const appRoutes: Routes = [
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    RouterModule.forRoot(appRoutes)
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

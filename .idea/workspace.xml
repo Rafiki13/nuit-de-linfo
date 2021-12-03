@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="816d8d47-42ca-4d1d-99a8-97e07d9c7270" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/src/app/root/menu/menu.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/src/app/root/menu/menu.component.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PapaNoel/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/PapaNoel/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PapaNoel/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/PapaNoel/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PapaNoel/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/PapaNoel/src/app/app.component.html" afterDir="false" />
@@ -22,7 +24,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/PapaNoel" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="21bmfVx8n9TJXao2qFyDhufkaay" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -55,7 +57,7 @@
       <updated>1638218268104</updated>
       <workItem from="1638218270816" duration="4000" />
       <workItem from="1638463175437" duration="19736000" />
-      <workItem from="1638495756544" duration="8919000" />
+      <workItem from="1638495756544" duration="9967000" />
     </task>
     <servers />
   </component>

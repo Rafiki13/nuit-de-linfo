@@ -8,6 +8,7 @@ import {ActivatedRoute} from "@angular/router";
 })
 export class LetterComponent implements OnInit {
   isOpened = false;
+  audio = new Audio('../../assets/music/Christmas.mp3');
   constructor(private route: ActivatedRoute) { }
 
   ngOnInit(): void {
@@ -17,5 +18,13 @@ export class LetterComponent implements OnInit {
 
   onClick(){
     this.isOpened = !this.isOpened;
+
+    if(this.isOpened){
+      this.audio.play();
+    }else{
+      this.audio.pause();
+      this.audio.currentTime = 0;
+    }
+
   }
 }
