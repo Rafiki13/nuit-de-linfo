@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {ActivatedRoute} from "@angular/router";
 
 @Component({
   selector: 'app-letter',
@@ -7,9 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LetterComponent implements OnInit {
   isOpened = false;
-  constructor() { }
+  constructor(private route: ActivatedRoute) { }
 
   ngOnInit(): void {
+    const letter = this.route.snapshot.params['letter'];
+    console.log(letter);
   }
 
   onClick(){
